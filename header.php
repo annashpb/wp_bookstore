@@ -13,7 +13,7 @@
 
 <header class="banner">
     <div class="container">
-		this is a header
+		<?php wp_nav_menu(['menu' => 'Main menu']); ?>
     </div><!-- .container -->
 </header><!-- .banner -->
 

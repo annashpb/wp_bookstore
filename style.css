@@ -162,18 +162,17 @@ template {
 
 /* *Custom styles */
 
-header,
+header.banner,
 footer {
 	padding-block: 1rem;
-	background: #ffefba; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		45deg,
-		#ffefba,
-		#ffffff
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		45deg,
-		#ffefba,
-		#ffffff
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	box-shadow: 0 0 10px rgba(75, 18, 72, 0.3);
+}
+
+#menu-main-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
