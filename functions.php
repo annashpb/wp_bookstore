@@ -9,3 +9,15 @@ function bookstore_styles()
 add_action('wp_head', 'bookstore_styles');
 
 add_theme_support( 'woocommerce' );
+
+function bookstore_sidebar() {
+    register_sidebar( array(
+        'name' => 'Sidebar',
+        'id' => 'sidebar',
+        'before_widget' => '<div>',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="rounded">',
+        'after_title' => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'bookstore_sidebar' );

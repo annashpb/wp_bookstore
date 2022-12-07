@@ -168,6 +168,16 @@ footer {
 	box-shadow: 0 0 10px rgba(75, 18, 72, 0.3);
 }
 
+.header-banner-navigation {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.menu-main-menu-container {
+	flex-grow: 1;
+}
+
 #menu-main-menu {
 	margin: 0;
 	padding: 0;
