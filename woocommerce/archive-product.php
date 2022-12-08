@@ -17,6 +17,9 @@ do_action( 'woocommerce_before_main_content' );
 </header>
 
 <div class="row">
+	<div class="col-xs-12 col-md-4">
+		<?php get_sidebar(); ?>
+	</div>
 	<div class="col-xs-12 col-md-8">
 		<?php
 		if ( woocommerce_product_loop() ) {
@@ -35,9 +38,6 @@ do_action( 'woocommerce_before_main_content' );
 			do_action( 'woocommerce_no_products_found' );
 		}
 		?>
-	</div>
-	<div class="col-xs-12 col-md-4">
-		<?php get_sidebar(); ?>
 	</div>
 </div>
 

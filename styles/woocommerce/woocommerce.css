@@ -1,0 +1,27 @@
+.woocommerce .woocommerce-ordering select {
+	padding: 0.5rem 0.25rem;
+}
+
+.woocommerce a.button.add_to_cart_button.product_type_simple {
+	background-color: #339606;
+	color: #fff;
+}
+
+.woocommerce a.button.add_to_cart_button.product_type_simple:hover,
+.woocommerce a.button.add_to_cart_button.product_type_simple:focus {
+	background-color: #234A12;
+}
+
+.woocommerce a.button.add_to_cart_button.product_type_variable {
+	background-color: #A3A302;
+	color: #fff;
+}
+
+.woocommerce a.button.add_to_cart_button.product_type_variable:hover,
+.woocommerce a.button.add_to_cart_button.product_type_variable:focus {
+	background-color: #707001;
+}
+
+.woocommerce span.onsale {
+	background-color: #E336DA;
+}

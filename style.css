@@ -190,3 +190,7 @@ footer {
 #content {
 	padding-block: 1rem;
 }
+
+.sidebar-container h3 {
+	font-size: 1.2rem;
+}
