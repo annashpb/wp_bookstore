@@ -186,3 +186,7 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 }
+
+#content {
+	padding-block: 1rem;
+}
