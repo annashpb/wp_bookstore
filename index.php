@@ -1,7 +1,8 @@
-<?php get_header(); ?>
+<?php get_header();
 
-<p>Here is our awesome page content</p>
+ob_start();
+the_content();
+$content_output = ob_get_clean();
+echo $content_output;
 
-<?php
 get_footer();
-
