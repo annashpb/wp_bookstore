@@ -98,6 +98,10 @@ button:-moz-focusring,
 	outline: 1px dotted ButtonText;
 }
 
+select {
+	padding: 0.5rem 0.25rem;
+}
+
 fieldset {
 	padding: 0.35em 0.75em 0.625em;
 }
