@@ -39,7 +39,7 @@
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs::before {
-    height: 1px;
+	height: 1px;
 	border-bottom: none !important;
 	bottom: -1px !important;
 	box-shadow: -1px -1px 5px rgba(75, 18, 72, 0.2);
@@ -48,14 +48,14 @@
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
 	border: none !important;
 	border-radius: 0 !important;
-	color: #4B1248 !important;
-	background-color: #F0C27B !important;
-    margin-inline: 0.25rem;
-    box-shadow: -1px -1px 5px rgba(75, 18, 72, 0.2);
+	color: #4b1248 !important;
+	background-color: #f0c27b !important;
+	margin-inline: 0.25rem;
+	box-shadow: -1px -1px 5px rgba(75, 18, 72, 0.2);
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li a {
-	color: #4B1248 !important;
+	color: #4b1248 !important;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
@@ -65,4 +65,11 @@
 .woocommerce div.product .woocommerce-tabs ul.tabs li::before,
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after {
 	content: none !important;
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+	max-width: unset;
 }
