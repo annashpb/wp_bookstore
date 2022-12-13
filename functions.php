@@ -3,7 +3,7 @@ function bookstore_styles()
 {
 	wp_enqueue_style('main-stylesheet', get_bloginfo('template_directory') . '/style.css');
 	wp_enqueue_style('bootstrap', get_bloginfo('template_directory') . '/styles/bootstrap/bootstrap.min.css');
-	wp_enqueue_style('bootstrap-grid', get_bloginfo('template_directory') . '/styles/bootstrap/bootstrap-grid.css.map');
+	wp_enqueue_style('bootstrap-grid', get_bloginfo('template_directory') . '/styles/bootstrap/bootstrap-grid.min.css');
 	wp_enqueue_style('woocommerce', get_bloginfo('template_directory') . '/styles/woocommerce/woocommerce.css');
 }
 add_action('wp_head', 'bookstore_styles');
